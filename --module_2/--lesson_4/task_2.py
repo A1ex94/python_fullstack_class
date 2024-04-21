@@ -1,4 +1,5 @@
 length = float(input("Введите длину площади"))
 width = float(input("Введите ширину площади"))
 object_area: float = float(length * width)
+object_area = round(object_area, 2)
 print(object_area)
