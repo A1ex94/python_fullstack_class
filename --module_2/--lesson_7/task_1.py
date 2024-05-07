@@ -1,3 +1,5 @@
-frase: str = "Python"
-frase_2 = frase[::-1]
-print(frase_2)
+line = 'Hello World'
+line_2 = line.split()
+reverse = []
+for word in line_2: reverse.append(word[::-1])
+print(reverse)
