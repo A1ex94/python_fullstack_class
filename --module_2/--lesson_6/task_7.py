@@ -1,3 +1,4 @@
 products = ["Чай", "Кофе", "Сахар", "Мед"]
-extra = products.pop(1)
+new_position = 1
+extra = products.pop(new_position)
 print(products)
