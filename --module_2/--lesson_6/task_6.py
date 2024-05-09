@@ -1,3 +1,4 @@
 products = ["Чай", "Кофе", "Сахар"]
-products.insert(1, "Мед")
+new_position = 1
+products.insert(new_position, "Мед")
 print(products)
